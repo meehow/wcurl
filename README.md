@@ -15,3 +15,12 @@ How to use it?
 5. Paste in terminal what you coped and change `curl` to `wcurl`.
 
 Optionally you can specify refresh interval or DOM selector (check `wcurl --help`).
+
+Program will run until it detects some change on the website.
+
+Installation
+============
+
+```
+go get -u github.com/meehow/wcurl
+```
